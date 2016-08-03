@@ -1,0 +1,2 @@
+pip install -r requirements.txt
+sudo python dns_cnc_srv.py

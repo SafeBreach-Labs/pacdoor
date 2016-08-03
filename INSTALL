@@ -1,0 +1,5 @@
+Go to `server' directory and type:
+
+pip install -r requirements.txt
+
+That's it!

